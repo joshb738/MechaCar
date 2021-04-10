@@ -8,7 +8,7 @@ Statistical Analysis using R &amp; RStudio
 - Software/Applications: RStudio Version 1.4.11
 - Libraries: tidyverse, dplyr
 
-## D1 Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 
 <p align="left">
   <img src="Resources/linear_regression.PNG"/>
@@ -39,37 +39,40 @@ Does the current manufacturing data meet this design specification of not exceed
   <img src="Resources/lot_summary.PNG"/>
 </p>
 
-## D3 T-Tests on Suspension Coils
+## T-Tests on Suspension Coils
 
 #### All Manufacturing Lots
 
-<p align="left">
-  <img src="Resources/t_test.PNG"/>
-</p>
-
 - The p-value (0.06028) is greater than the assumed significance level of 0.05%.  Therefore, the two means are statistically similar and we would fail to reject the null hypothesis
 
+<p align="left">
+  <img src="Resources/t_test.png"/>
+</p>
+
 #### Lot 1 
+
+- The p-value (1) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically similar and we would fail to reject the null hypothesis.
 
 <p align="left">
   <img src="Resources/lot1_t_test.PNG"/>
 </p>
 
-- The p-value (1) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically similar and we would fail to reject the null hypothesis.
-
 #### Lot 2
+
+- The p-value (0.6072) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically similar and we would fail to reject the null hypothesis.
 
 <p align="left">
   <img src="Resources/lot2_t_test.PNG"/>
 </p>
 
-- The p-value (0.6072) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically similar and we would fail to reject the null hypothesis
+#### Lot 3
+
+- The p-value (0.04168) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically different and there is sufficient evidence to reject the null hypothesis.
 
 <p align="left">
   <img src="Resources/lot3_t_test.PNG"/>
 </p>
 
-- The p-value (0.04168) is greater than the assumed significance level of 0.05%. Therefore, the two means are statistically different and there is sufficient evidence to reject the null hypothesis.
 
 ## D4 Study Design: MechaCar vs Competition
 
