@@ -39,8 +39,8 @@ Statistical Analysis using R &amp; RStudio
   <img src="Resources/lot_summary.PNG"/>
 </p>
 
-- Lot 1 has a PSI variance of **0.78** which does not exceed the design specification of 100 pounds per square inch.
-- Lot 2 has a PSI variance of **2.73** which does not exceed the design specification of 100 pounds per square inch.
+- Lot 1 has a PSI variance of **0.98** which does not exceed the design specification of 100 pounds per square inch.
+- Lot 2 has a PSI variance of **7.47** which does not exceed the design specification of 100 pounds per square inch.
 - Lot 3 has a PSI variance of **170.29** which exceeds the design specification of 100 pounds per square inch. 
 
 ## T-Tests on Suspension Coils
