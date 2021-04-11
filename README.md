@@ -31,7 +31,7 @@ Statistical Analysis using R &amp; RStudio
   <img src="Resources/total_summary.PNG"/>
 </p>
 
-- The PSI variance of 76.23 for all Lots does not exceed the design specification of 100 pound per square inch.
+- The PSI variance of **62.29** for all Lots does not exceed the design specification of 100 pound per square inch.
 
 #### 2. Manufacturing Lot Summary
 
