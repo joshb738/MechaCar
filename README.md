@@ -17,15 +17,13 @@ Statistical Analysis using R &amp; RStudio
 - p-value: 5.35e-11
 - Multiple R-squared: 0.7149
 
-1. According the results the **vehicle weight, spoiler angle and AWD capabilites** are statistically unlikely to provide random amounts of variance to the linear model, and thereore are more likely to have a significant impact on the MPG.
+1. According the results the **vehicle weight, spoiler angle and AWD capabilites** are statistically unlikely to provide random amounts of variance to the linear model, and therefore are more likely to have a significant impact on the MPG.
 
 2. The p-value of the linear regression analysis is **5.35e-11** which is less than the assumed significance level of 0.05%. Therefore there is insufficient evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
 
 3. Based on the r-sqaured value we can determine that this model will have a of 71.49% effective rate for predicting the mpg of MechaCar prototypes.
 
-## D2 Summary Statistics on Suspension Coils
-
-Does the current manufacturing data meet this design specification of not exceeding 100 pounds per square inch for all manufacturing lots in total and each lot individually? Why or why not?
+## Summary Statistics on Suspension Coils
 
 #### 1. Total Sumamry
 
@@ -33,11 +31,17 @@ Does the current manufacturing data meet this design specification of not exceed
   <img src="Resources/total_summary.PNG"/>
 </p>
 
+- The PSI variance of 76.23 for all Lots does not exceed the design specification of 100 pound per square inch.
+
 #### 2. Manufacturing Lot Summary
 
 <p align="left">
   <img src="Resources/lot_summary.PNG"/>
 </p>
+
+- Lot 1 has a PSI variance of **0.78** which does not exceed the design specification of 100 pounds per square inch.
+- Lot 2 has a PSI variance of **2.73** which does not exceed the design specification of 100 pounds per square inch.
+- Lot 3 has a PSI variance of **170.29** which exceeds the design specification of 100 pounds per square inch. 
 
 ## T-Tests on Suspension Coils
 
@@ -74,7 +78,7 @@ Does the current manufacturing data meet this design specification of not exceed
 </p>
 
 
-## D4 Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs Competition
 
 - What metric or metrics are you going to test?
 - What is the null hypothesis or alternative hypothesis?
