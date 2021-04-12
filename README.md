@@ -80,7 +80,26 @@ Statistical Analysis using R &amp; RStudio
 
 ## Study Design: MechaCar vs Competition
 
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why? 
-- What data is needed to run the statistical test?
+A statistical study that can quantify how the MechaCar performs against the competition by analyzing vehicle cost in relation to Highway fuel efficiency and Safety rating. 
+
+**1. Metrics for testing**
+
+- Dependent variable: Vehicle Cost
+- Independent variables: Highway fuel efficiency, Safety rating
+
+**2. Null hypothesis and alternative hypothesis**
+
+- Null Hypothesis: Vehicles with higher safety ratings and better fuel efficiency will result in a higher mean vehicle cost. 
+
+- Alternative Hypothesis: Lower safety ratings and poor highway fuel efficiency will result in a lower mean vehicle cost. 
+
+**3. Statistical required to test the hypothesis** 
+
+A two-way ANOVA to test the means of a single dependent variable across two independent variables. (e.g., Vehicle Cost based on safety rating and highway fuel efficiency.)
+
+**4. Required data for the statistical test**
+
+- List of the vehicles in the same class as MechaCar.
+- Cost for vehicles in the same class as MechaCar.
+- Fuel economy data for the vehicles in the same class as MechaCar.
+- Safety ratings for all vehicles in the same class as MechaCar.
