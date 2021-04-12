@@ -93,9 +93,9 @@ A statistical study that can quantify how the MechaCar performs against the comp
 
 - Alternative Hypothesis: Lower safety ratings and poor highway fuel efficiency will result in a lower mean vehicle cost. 
 
-**3. Statistical required to test the hypothesis** 
+**3. Statistical test required to test the hypothesis** 
 
-A two-way ANOVA to test the means of a single dependent variable across two independent variables. (e.g., Vehicle Cost based on safety rating and highway fuel efficiency.)
+Two-way ANOVA to test the means of a single dependent variable across two independent variables. (e.g., Vehicle Cost based on safety rating and highway fuel efficiency.)
 
 **4. Required data for the statistical test**
 
